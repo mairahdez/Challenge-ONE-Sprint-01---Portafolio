@@ -1,0 +1,48 @@
+skills {
+  text-align: center;
+  font-size: 30px; /* Alinear el contenido al centro */
+}
+
+
+.skills__line {
+  display: flex; /* Muestra los elementos en una fila */
+  justify-content: space-between; /* Espacio entre cada contenedor */
+}
+
+.skills__title {
+  text-align: center;
+    font-size: 30px;
+  
+}
+
+.skills__box {
+  width: 200px; /* Tamaño del cuadrado */
+  height: 260px; 
+  display: flex; /* elementos en columna dentro del cuadrado */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ffffff; /* borde para visualizar el cuadrado */
+  background-color: #ffffff; /* relleno para visualizar el cuadrado */
+  margin: 10px; 
+}
+
+.skills__box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills__img img {
+  width: 70%; /* Hacer que todas las imágenes ocupen el 100% del contenedor */
+  height: auto; /* Permitir que la altura se ajuste proporcionalmente */
+}
+
+.skills__name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px; /* Espacio entre la imagen y el nombre */
+}
+
+
+  

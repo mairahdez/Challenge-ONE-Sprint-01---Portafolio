@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(1136px, 1fr));
+    gap: 32px;
+  }
+  
+  .grid-container__item {
+    display: flex;
+    align-items: center;
+    /* Otros estilos para cada item */
+  }
+  
+  .grid-container__image {
+    width: 300px; /* Tamaño de la imagen */
+    height: 300px;
+    /* Otros estilos para la imagen */
+  }
+  
+  
+  
+  .grid-container__title {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+  }
+  
+  .grid-container__text {
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #333;
+    padding: 5px;
+    margin-right: 100px;
+  }
+  
+  
+

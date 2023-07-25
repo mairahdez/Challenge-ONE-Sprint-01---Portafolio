@@ -1,0 +1,48 @@
+/* CSS utilizando la metodología BEM */
+.academic {
+    background-color: var(--otro-color);
+    padding: 1%;
+}
+
+.academic__title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.academic__courses__box {
+    flex: 1;
+    max-width: 280px; /* Ajusta el tamaño máximo del contenedor */
+    text-align: center;
+}
+
+.academic__courses__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.academic__courses__item {
+    font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px; 
+}
+
+.academic__courses__item--img img {
+    
+    max-width: 100%; /* Ajusta el tamaño de la imagen */
+    background-color: var(--otro-color);
+    padding: 10px;
+
+}
+
+/*.academic__courses__item--title h4 {
+    /* Estilos para el título del curso */
+
+
+/*.academic__courses__item--subtitle p {
+    /* Estilos para el subtítulo del curso */

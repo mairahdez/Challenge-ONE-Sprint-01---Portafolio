@@ -1,0 +1,167 @@
+/* Estilos para la sección de Experiencia Profesional */
+.experience {
+    text-align: center; /* Centra el contenido del título en la sección */
+}
+
+.experience__section__title {
+    text-align: center;
+    font-size: 30px;
+    padding: auto;
+}
+
+.experience__box {
+    display: flex; /* Muestra los elementos en una fila */
+    align-items: flex-end; /* Alinea la imagen a la parte inferior de la caja */
+    justify-content: space-between; /* define el Espacio entre los elementos */
+}
+
+.experience__img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen */
+    margin-right: 20px; /* Define el espacio entre la imagen y el contenido a la derecha */
+}
+
+.experience__info {
+    flex: 1; /* Permitir que la información a la derecha ocupe el espacio disponible */
+}
+
+.experience__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.experience__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+.experience__description {
+display: flex;
+  justify-content: center; /* Centrar los botones horizontalmente */
+  margin-top: 10px; /* Espacio superior entre el contenedor y los botones */
+  
+}
+
+
+
+.experience__description button:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo del botón al pasar el cursor */
+  }
+
+.experience__repo{
+    background-color: transparent; /* Relleno gris */
+  color: #007bff; /* Letras azules */
+  border: 2px solid #007bff; /* Borde azul */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  text-decoration: none; /* Quitar decoración de enlaces */
+}
+.experience__repo:hover {
+    background-color: #007bff;
+}
+.experience__demo {
+background-color: #007bff; /* Relleno azul */
+  color: #fff; /* Letras blancas */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  text-decoration: none; /* Quitar decoración de enlaces */
+}
+
+.experience__demo:hover {
+    background-color: #0056b3;
+}
+.experience__botao--repo,
+.experience__botao--demo {
+    margin: 3 10px; /* Espacio lateral entre los botones */
+    border: none;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .experience__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        text-align: center;
+    }
+
+    .experience__title {
+        font-size: 35px;
+    }
+
+    .experience__text {
+        font-size: 25px;
+    }
+
+    .experience__description {
+        flex-direction: column;
+    }
+
+    .experience__botao--repo,
+    .experience__botao--demo {
+        margin: 10px 0;
+    }
+}
+
+/* Media query para tabletas */
+@media (max-width: 768px) {
+    .experience__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__img {
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        text-align: center;
+    }
+
+    .experience__title {
+        font-size: 35px;
+    }
+
+    .experience__text {
+        font-size: 25px;
+    }
+
+    .experience__description {
+        flex-direction: column;
+    }
+
+    .experience__botao--repo,
+    .experience__botao--demo {
+        margin: 10px 0;
+    }
+}
+
+/* Media query para celulares */
+@media (max-width: 458px) {
+    .experience__img {
+        order: 1; /* Cambiar el orden de la imagen para que quede arriba */
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        order: 2; /* Cambiar el orden de la información para que quede en el medio */
+    }
+
+    .experience__title {
+        font-size: 30px;
+    }
+
+    .experience__text {
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,40 @@
+/* Estilos para la clase .hobbies */
+.hobbies {
+    /* Ajuste el ancho máximo para evitar que los elementos se desborden */
+    max-width: 100%;
+  }
+  
+  .hobbies__title{
+    text-align: center;
+    font-size: 30px;
+  }
+  /* Estilos para la clase .hobbies__line */
+  .hobbies__line {
+    display: flex; /* Mostrar los elementos en una fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+  }
+  
+  /* Estilos para la clase .hobbies__box */
+  .hobbies__box {
+    width: 200px; /* Tamaño deseado para el cuadrado */
+  height: 260px; /* Tamaño deseado para el cuadrado */
+  display: flex; /* Mostrar los elementos en columna dentro del cuadrado */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ffffff; /* Agregar un borde para visualizar el cuadrado */
+  background-color: #ffffff;
+  margin: 10px; 
+  }
+  
+  /* Estilos para la clase .hobbies__img */
+  .hobbies__img img {
+    width: 150px; /* Tamaño deseado para las imágenes */
+    height: 150px; /* Tamaño deseado para las imágenes */
+  }
+  
+  /* Estilos para la clase .hobbies__name */
+  .hobbies__name {
+    margin-top: 10px; /* Espacio entre la imagen y el nombre del hobby */
+  }

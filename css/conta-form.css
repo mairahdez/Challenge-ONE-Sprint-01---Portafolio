@@ -1,0 +1,71 @@
+/* Estilos para la sección de contacto y formulario */
+.formcontacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: var(--otro-color);
+  }
+  
+  .formcontacto__contacto {
+    display: flex;
+    align-items: center;
+  }
+  
+  .formcontacto__izquierda {
+    margin-right: 20px;
+  }
+
+  .formcontacto__img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .formcontacto__text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20 px 0;
+  }
+  
+  .formcontacto__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .formcontacto__subtext {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .formcontacto__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formcontacto__input,
+  .formcontacto__textarea {
+    margin-bottom: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .formcontacto__botao {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+  }
+  .formcontacto__botao:not(:last-child) {
+    margin-right: 10px; /* Agregamos un margen entre los botones */
+  }
+
+  .formcontacto__botao:hover {
+    background-color: #0056b3;
+  }
+  

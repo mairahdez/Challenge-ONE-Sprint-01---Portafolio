@@ -1,0 +1,9 @@
+.firma {
+    display: flex;
+
+}
+
+.firma img {
+    width: 10%; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  }

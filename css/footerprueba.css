@@ -1,0 +1,30 @@
+/* Estilos para el footer */
+.footer {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center; /* Alinea el contenido al centro del footer */
+    background-color: #f2f2f2; /* Color de fondo del footer */
+    padding: 20px; /* Espaciado interno para el footer*/
+  }
+  
+  /* Estilos para el enlace del icono */
+  .footer__link {
+    display: inline-block; /* Convierte el enlace en un bloque en línea */
+    text-decoration: none; /* Quita la decoración de subrayado del enlace */
+  }
+  
+  /* Estilos para la imagen del icono */
+  .footer__image {
+ 
+    width: 50px; /* Ajusta el ancho de la imagen  */
+    height: 50px; /* Ajusta la altura de la imagen */
+  }
+  
+  
+  
+  
+  
+  
+  
+  

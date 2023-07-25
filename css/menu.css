@@ -1,0 +1,79 @@
+.menu {
+  margin-bottom: 50px;
+}
+
+.menu__list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 2%;
+    font-size: 16px;
+   
+    
+  }
+  
+  .menu__list__item {
+    margin-right: 10px;
+  }
+  
+  .menu__list__item a {
+    text-decoration: none;
+    color: #333;
+  }
+  .menu__header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu__header img {
+    margin-right: 10px; /* establece el espacio deseado entre la imagen y el título */
+  }
+  
+  .menu__title {
+    margin: 0; /* Elimina el margen predeterminado del título */
+    font-size: 16px;
+  }
+
+  /* Estilos responsivos  */
+@media (max-width: 768px) {
+  .menu__list {
+    display: none; /* Oculta la lista de elementos del menú en dispositivos móviles */
+  }
+
+  .menu__header {
+    justify-content: center; /* Centra el contenido del menú en dispositivos móviles */
+  }
+
+  .menu__header img {
+    margin-right: 0; /* Elimina el margen entre la imagen y el título en dispositivos móviles */
+  }
+
+  .menu__title {
+    font-size: 20px; /* Ajusta el tamaño de fuente del título para dispositivos móviles */
+  }
+
+  /* Muestra el menú como un botón en dispositivos móviles */
+  .menu__icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* Muestra la lista de elementos del menú al hacer clic en el botón */
+  .menu__icon:checked ~ .menu__list {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  /* Estilos para cada elemento de la lista en dispositivos móviles */
+  .menu__icon:checked ~ .menu__list .menu__list__item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

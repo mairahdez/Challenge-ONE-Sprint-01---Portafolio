@@ -1,0 +1,18 @@
+.footer {
+    background-color: white;
+    padding: 20px;
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer__rodape p {
+    font-size: 14px;
+    margin: 5px 0; /* Espaciado entre los párrafos */
+    line-height: 1;
+  }
+  
