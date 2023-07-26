@@ -38,3 +38,24 @@
   .hobbies__name {
     margin-top: 10px; /* Espacio entre la imagen y el nombre del hobby */
   }
+
+  /* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .hobbies__line {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .hobbies__box {
+      width: 100%; /* Ocupa todo el ancho disponible en dispositivos móviles */
+      max-width: 300px; /* Establece un máximo para que los elementos no se desborden */
+  }
+}
+
+/* Media queries para tablets */
+@media (max-width: 1024px) {
+  .hobbies__box {
+      width: 48%; /* Ocupa casi la mitad del ancho disponible en tablets */
+      max-width: 300px; /* Establece un máximo para que los elementos no se desborden */
+  }
+}

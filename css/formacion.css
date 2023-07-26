@@ -39,10 +39,9 @@
     padding: 10px;
 
 }
-
-/*.academic__courses__item--title h4 {
-    /* Estilos para el título del curso */
-
-
-/*.academic__courses__item--subtitle p {
-    /* Estilos para el subtítulo del curso */
+@media (max-width: 1024px) {
+    .academic__courses__box {
+        max-width: 48%; /* Ocupa casi la mitad del ancho disponible en tablets */
+        margin-bottom: 20px; /* Ajusta el espacio entre los elementos en tablets */
+    }
+}
