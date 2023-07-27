@@ -45,4 +45,45 @@ skills {
 }
 
 
-  
+  /* Estilos para dispositivos con un ancho de pantalla de hasta 768px */
+@media (max-width: 768px) {
+  .skills {
+    font-size: 26px;
+  }
+
+  .skills__line {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills__box {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Estilos para dispositivos con un ancho de pantalla de hasta 1024px */
+@media (max-width: 1024px) {
+  .skills {
+    font-size: 26px;
+  }
+
+  .skills__box {
+    width: 150px;
+  }
+}
+@media (max-width: 425px) {
+  .skills {
+    font-size: 22px;
+  }
+
+  .skills__line {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills__box {
+    width: 100%;
+    margin: 10px 0;
+  }
+}   
