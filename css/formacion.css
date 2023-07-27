@@ -45,3 +45,21 @@
         margin-bottom: 20px; /* Ajusta el espacio entre los elementos en tablets */
     }
 }
+
+@media (max-width: 768px) {
+    .academic__courses__box {
+        max-width: 100%; /* Ocupa todo el ancho disponible en tablets y dispositivos móviles */
+        margin-bottom: 20px; /* Ajusta el espacio entre los elementos en tablets y dispositivos móviles */
+    }
+}
+
+@media (max-width: 425px) {
+    .academic__courses {
+        flex-direction: column; /* Coloca los elementos uno encima del otro en dispositivos móviles */
+    }
+    
+    .academic__courses__box {
+        max-width: 100%; /* Ocupa todo el ancho disponible en dispositivos móviles */
+        margin-bottom: 20px; /* Ajusta el espacio entre los elementos en dispositivos móviles */
+    }
+}
