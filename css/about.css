@@ -9,6 +9,10 @@
     font-size: 30px; /* Alinear el contenido al centro */
   }
 
+  .about__paragraph {
+    font-size: 16px;
+    text-align: left;
+  }
   /* Estilos responsivos para dispositivos móviles, tablets e iPads */
 @media (max-width: 768px) {
     .about__title {
